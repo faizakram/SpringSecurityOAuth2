@@ -19,9 +19,9 @@ import com.springmvc.model.User;
  
 public class SpringRestClient {
  
-    public static final String REST_SERVICE_URI = "http://localhost:8080/SpringSecurityOAuth2Example";
+    public static final String REST_SERVICE_URI = "http://localhost:8080/SpringSecurityOAuth2";
     
-    public static final String AUTH_SERVER_URI = "http://localhost:8080/SpringSecurityOAuth2Example/oauth/token";
+    public static final String AUTH_SERVER_URI = "http://localhost:8080/SpringSecurityOAuth2/oauth/token";
     
     public static final String QPM_PASSWORD_GRANT = "?grant_type=password&username=bill&password=abc123";
     
